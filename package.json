@@ -1,0 +1,26 @@
+{
+  "name": "db_itra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shakurovoleg42?tab=repositories"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
