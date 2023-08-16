@@ -16,7 +16,15 @@
     "dotenv": "^16.0.2",
     "express": "^4.18.1"
   },
-  "author": "",
+  "author": "Oleg Shakurov",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakurovoleg42/DB_itransition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shakurovoleg42/DB_itransition/issues"
+  },
+  "homepage": "https://github.com/shakurovoleg42/DB_itransition#readme",
   "description": ""
 }
