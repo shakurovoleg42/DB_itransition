@@ -21,7 +21,7 @@ export default function Header({
  let countries = [
   { USA: "en_US" },
   { Georgian: "ge" },
-  { Japanese: "ja" },
+  { Deutschland: "de" },
  ];
 
  useEffect(() => {
@@ -133,20 +133,3 @@ export default function Header({
   </Navbar>
  );
 }
-
-// const Icon = (props) => (
-//  <div className="py-2 text-white">
-//   <svg
-//    className="icon-logo-svg mixed-array-demo el-01"
-//    width={194}
-//    height={29}
-//    fill="none"
-//    {...props}
-//   >
-//    <path
-//     fill="#fff"
-//    />
-//   </svg>
-//   <small> Task-6</small>
-//  </div>
-// );
